@@ -14,20 +14,25 @@ A **smart YouTube summarization tool** that fetches transcripts, analyzes conten
 ## 🚀 **Features**
 
 - Paste any **YouTube link or video ID**
+  
 - Automatically fetches:
   - Title  
   - Channel name  
   - Thumbnail  
-  - Transcript 
+  - Transcript
+    
 - Generates:
   - **Short Summary** (3–5 sentences)
   - **Key Bullet Points**
   - **Actionable Insights**
+    
 - Clean, styled UI with:
   - 5 organized tabs  
   - Scrollable transcript viewer  
   - Copy-to-clipboard buttons without page reload
+    
 - Download summary as **TXT**
+  
 - Fully built with Python + Streamlit
 
 ---
@@ -54,9 +59,6 @@ youtube_summarizer/
 
 ---
 
-
----
-
 ## 🖥️ **How It Works**
 
 ### **1️⃣ Input a YouTube URL**
@@ -77,7 +79,7 @@ If none exist → user gets a clean error.
 
 ---
 
-### **3️⃣ AI Summary (Groq + Llama 3.3)**
+### **3️⃣ AI Summary**
 The model generates three sections:
 
 - **Short Summary**
